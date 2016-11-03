@@ -15,6 +15,13 @@
         <slf4j-log4j12.version>1.7.7</slf4j-log4j12.version>
     </properties>
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.qiniu/sdk -->
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>sdk</artifactId>
+            <version>6.1.9</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
